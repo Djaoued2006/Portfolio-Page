@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.first-section {
+    background-color: #1f2937;
+    height: 650px;
+}
+
+.bar {
+    display: flex;
+    height: 90px;
+    margin: 0px 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header {
+    color: white;
+    font-size: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    transition: all 0.7s;
+    cursor: pointer;
+}
+
+nav a:hover {
+    font-size: 18px;
+}
+
+/* First nav bar done here */
+
+/* first section styling */
+
+.section1 {
+    display: flex;
+    margin: 30px 100px;
+    justify-content: space-between;
+}
+.ketbaonly {
+    margin-top: 20px;
+    margin-right: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+#padding {
+    margin-left: 20px;
+}
+
+#padding a {
+    text-decoration: none;
+    color: white;
+}
+
+.ketba {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.section1 p {
+    color: azure;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.img {
+    border-radius: 50px;
+}
+
+.section1 div img {
+    margin-top: 40px;
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    filter: grayscale(1);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.section1 img:hover {
+    filter: none;
+    transform: scale(1.05);
+}
+
+.section1 div input {
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0px;
+    margin-top: 20px;
+    background-color: #3b82f6;
+    color: white;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+
+.section1 input:hover {
+    transform: scale(1.1);
+    background-color: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+/* Here comes the section 2 styling */
+
+.section2 {
+    height: 500px;
+    margin-top: 100px;
+    padding-top: 20px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cards div p {
+    margin-top: 20px;
+    text-align: center;
+    color: #1f2937;
+}
+
+.section2 div h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #1f2937;
+    margin-bottom: 30px;
+}
+
+.section2 div img {
+    width: 200px;
+    /* height: 230px; */
+    border-radius: 10px;
+    transition: all 0.7s;
+}
+
+.section2 div img:hover {
+    transform: scale(1.05);
+}
+
+.section2 .zeta {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    transition: all 0.7s;
+}
+
+.section2 .zeta:hover {
+    transform: scale(1.05);
+}
+
+/* Section2 DONE */
+
+.section3 {
+    background-color: #e5e7eb;
+    height: 500px;
+    margin-top: 20px;
+    position: relative;
+    border: 2px solid transparent;
+}
+
+.quote {
+    margin: 100px;
+    margin-bottom: 120px;
+}
+
+.section3 div p {
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    letter-spacing: 1px;
+    color: #1f2937;
+}
+
+.name {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.name h3 {
+    font-size: 25px;
+    margin-top: 30px;
+    color: #1f2937;
+}
+
+/* Last section */
+
+.section4 {
+    margin-top: 100px;
+    height: 200px;
+}
+
+.section4 div {
+    margin: 0px 100px;
+    border-radius: 20px;
+    background-color: #3b82f6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section4 div p {
+    color: white;
+    margin: 50px;
+    font-size: 25px;
+}
+
+.section4 div span {
+    font-weight: 100;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.section4 div input {
+    width: 120px;
+    height: 50px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+
+.section4 div input:hover {
+    transform: scale(1.1);
+}
+
+.last {
+    margin-top: 70px;
+    height: 80px;
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.last p {
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+
+input {
+    cursor: pointer;
+}
